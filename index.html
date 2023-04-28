@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.svg">
+  <title>Construcciones Modulares</title>
+  <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+  <div class="hero hero__img">
+    <header class="header">
+      <img class="logo" src="./images/logo.svg" alt="Logo">
+
+
+      <button class="open-menu" id="open-menu">
+        <i class="bi bi-list"></i>
+      </button>
+
+      <!-- MOBILE MENU-->
+
+      <div class="mobile-menu disabled" id="mobile-menu">
+        <div class="mobile-menu__header">
+          <img class="logo" src="./images/logo.svg" alt="Logo">
+          <button class="close-menu" id="close-menu">
+            <i class="bi bi-x"></i>
+          </button>
+          </div>
+          <nav class="mobile-menu__nav">
+            <ul>
+              
+              <li><a href="#nosotros">Nosotros</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+              
+            </ul>
+          </nav>
+      </div>
+
+
+
+      <nav class="desktop-menu">
+        <ul>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="hero__content">
+      <p> <a href="#proyectos">Ver proyectos</a></p>
+    </div>
+  </div>
+  <main id="nosotros">
+
+    <div class="intro">
+      <img src="https://i.postimg.cc/Y9R65w2m/image-interactive.jpg" alt="" style="border-radius: 10px;">
+      <div class="intro__info">
+        <h2>Especialistas en construccion modular</h2>
+        <p>Desde el diseño hasta la construcción, nuestro equipo de expertos trabaja en estrecha colaboración contigo para asegurarse de que tu hogar modular sea exactamente lo que estás buscando. ¡Contáctanos hoy para comenzar a construir la casa de tus sueños!
+        </p>
+      </div>
+    </div>
+
+
+
+    <div class="creations" id="proyectos">
+      <h2 class="items-center text-vnet-blue mb-2" id="proyectos">PROYECTOS</h2>
+      <div class="creations__header">
+        <!-- <button class="btn btn-desktop">See all</button> -->
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="grid gap-4">
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://i.postimg.cc/Pr71v73D/IMG-20230417-WA0005.jpg"
+              alt="">
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://i.postimg.cc/sgZ7YJqN/IMG-20230417-WA0010.jpg"
+              alt="">
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://i.postimg.cc/3Rrkcjf7/IMG-20230417-WA0018.jpg"
+              alt="">
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div>
+            <img class="h-auto max-w-full rounded-lg"
+              src="https://i.postimg.cc/cC4ffGGR/fr-Zit7q29-Mn-Wq-Q84c-FOb3s-I5-A5-Oup-Iqh0-5zc-Q9gfj4-plaintext-638173611279837404.jpg"
+              alt="">
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://i.postimg.cc/j2LLsxrF/IMG-20230417-WA0022.jpg"
+              alt="">
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://i.postimg.cc/L6J1ST98/IMG-20230417-WA0015.jpg"
+              alt="">
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://i.postimg.cc/8CQWt6VP/IMG-20230417-WA0009.jpg"
+              alt="">
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg"
+              src="https://i.postimg.cc/y8BvvxCK/Imagen-de-Whats-App-2023-04-17-a-las-17-05-10.jpg" alt="">
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://i.postimg.cc/kXLtgbGF/IMG-20230417-WA0017.jpg"
+              alt="">
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://i.postimg.cc/TPJy0N9C/IMG-20230417-WA0016.jpg"
+              alt="">
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://i.postimg.cc/RZfJ6Znr/IMG-20230417-WA0019.jpg"
+              alt="">
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg"
+              src="https://i.postimg.cc/0jZm2krg/be1e16bf-7db8-4901-a806-f938756f2ca5-flat-pack-tiny-homes-ikea-prefab-home.jpg"
+              alt="">
+          </div>
+        </div>
+      </div>
+
+
+      <h2 class="border-solid items-center text-vnet-blue mb-2 mt-24" id="faq">PREGUNTAS FRECUENTES</h2>
+      <div class="flex justify-center items-start my-2">
+        <div class="w-full sm:w-10/12 md:w-1/2 my-1">
+          <ul class="flex flex-col">
+            <li class="bg-white my-2 shadow-lg" x-data="accordion(1)">
+              <h1 @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer">
+                <span>¿Donde puedo visitar una casa modular?</span>
+                <svg :class="handleRotate()"
+                  class="fill-current text-black-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20">
+                  <path
+                    d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                  </path>
+                </svg>
+              </h1>
+              <div x-ref="tab" :style="handleToggle()"
+                class="border-l-2 border-black overflow-hidden max-h-0 duration-500 transition-all">
+                <p class="p-3 text-gray-900">
+                  Tenemos varios modelos instalados a lo largo de Chile, solo escribenos en el formulario de contacto para agendar una visita.
+                </p>
+              </div>
+            </li>
+            <li class="bg-white my-2 shadow-lg" x-data="accordion(2)">
+              <h1 @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer">
+                <span>¿Que precio tienen las casas modulares?</span>
+                <svg :class="handleRotate()"
+                  class="fill-current text-black-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20">
+                  <path
+                    d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                  </path>
+                </svg>
+              </h1>
+              <div class="border-l-2 border-black overflow-hidden max-h-0 duration-500 transition-all" x-ref="tab"
+                :style="handleToggle()">
+                <p class="p-3 text-gray-900">
+                  Tenemos modulos con precios que parten desde los $8.500.000 en su linea basica hasta los $15.000.000 en linea premium.
+                </p>
+              </div>
+            </li>
+            <li class="bg-white my-2 shadow-lg" x-data="accordion(3)">
+              <h1 @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer">
+                <span>¿Los modulos vienen equipados?</span>
+                <svg :class="handleRotate()"
+                  class="fill-current text-black-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20">
+                  <path
+                    d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                  </path>
+                </svg>
+              </h1>
+              <div class="border-l-2 border-black overflow-hidden max-h-0 duration-500 transition-all" x-ref="tab"
+                :style="handleToggle()">
+                <p class="p-3 text-gray-900">
+                  El proposito de nuestro modelo de construccion modular es entregar una solución completa, por lo que nuestras casas modulares se entregan con todo lo necesario, listas para habitar.
+                </p>
+              </div>
+            </li>
+            <li class="bg-white my-2 shadow-lg" x-data="accordion(4)">
+              <h1 @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer">
+                <span>¿Cuales son los tamaños disponibles?</span>
+                <svg :class="handleRotate()"
+                  class="fill-current text-black-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20">
+                  <path
+                    d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                  </path>
+                </svg>
+              </h1>
+              <div class="border-l-2 border-black overflow-hidden max-h-0 duration-500 transition-all" x-ref="tab"
+                :style="handleToggle()">
+                <p class="p-3 text-gray-900">
+                  Cada casa modular cuenta con un tamaño de 21 metros cuadrados, al ser modulos estos se pueden apilar y formar casas mas amplias, todo se puede configurar de acuerdo a la necesidad de espacio del cliente.
+                </p>
+              </div>
+            </li>
+            <li class="bg-white my-2 shadow-lg" x-data="accordion(5)">
+              <h1 @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer">
+                <span>¿Cuanto tiempo toma construir una casa modular?</span>
+                <svg :class="handleRotate()"
+                  class="fill-current text-black-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20">
+                  <path
+                    d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                  </path>
+                </svg>
+                </h2>
+                <div class="border-l-2 border-black overflow-hidden max-h-0 duration-500 transition-all" x-ref="tab"
+                  :style="handleToggle()">
+                  <p class="p-3 text-gray-900">
+                    Normalmente manejamos un stock de casas modulares disponibles con entrega inmediata, pero en caso contrario pueden tardar entre 1-2 meses luego de confirmar el pedido.
+                  </p>
+                </div>
+            </li>
+            <!-- <li class="bg-white my-2 shadow-lg" x-data="accordion(6)">
+              <h1 @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer">
+                <span>What payment methods do you accept?</span>
+                <svg :class="handleRotate()"
+                  class="fill-current text-black-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20">
+                  <path
+                    d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                  </path>
+                </svg>
+              </h1>
+              <div class="border-l-2 border-black overflow-hidden max-h-0 duration-500 transition-all" x-ref="tab"
+                :style="handleToggle()">
+                <p class="p-3 text-gray-900">
+                  Any method of payments acceptable by you. For example: We accept MasterCard, Visa, American Express,
+                  PayPal, JCB Discover, Gift Cards, etc.
+                </p>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+  </main>
+</body>
+<script>
+  document.addEventListener('alpine:init', () => {
+    Alpine.store('accordion', {
+      tab: 0
+    });
+
+    Alpine.data('accordion', (idx) => ({
+      init() {
+        this.idx = idx;
+      },
+      idx: -1,
+      handleClick() {
+        this.$store.accordion.tab = this.$store.accordion.tab === this.idx ? 0 : this.idx;
+      },
+      handleRotate() {
+        return this.$store.accordion.tab === this.idx ? 'rotate-180' : '';
+      },
+      handleToggle() {
+        return this.$store.accordion.tab === this.idx ? `max-height: ${this.$refs.tab.scrollHeight}px` : '';
+      }
+    }));
+  })
+</script>
+
+</html>
+</div>
+</main>
+
+<!-- component -->
+<style>
+  /* RED BORDER ON INVALID INPUT */
+  .check input:invalid {
+    border-color: red;
+  }
+
+  /* FLOATING LABEL */
+  .label-floating input:not(:placeholder-shown),
+  .label-floating textarea:not(:placeholder-shown) {
+    padding-top: 1.4rem;
+  }
+
+  .label-floating input:not(:placeholder-shown)~label,
+  .label-floating textarea:not(:placeholder-shown)~label {
+    font-size: 0.8rem;
+    transition: all 0.2s ease-in-out;
+    color: #1f9d55;
+    opacity: 1;
+  }
+</style>
+
+<h2 class="w-full my-2 text-3xl text-center mx-auto justify-center leading-tight my-5">Contacto</h2>
+
+<form target="_blank" id="contacto" action="https://formsubmit.co/cotizaciones@c3modular.cl
+" method="POST" class="w-full mx-auto max-w-3xl bg-white shadow p-8 text-black mb-16">
+
+
+
+
+  <!-- name field -->
+  <div class="flex flex-wrap mb-6">
+    <div class="relative w-full appearance-none label-floating">
+      <input
+        class="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-gray-200 border border-gray-200 rounded focus:outline-none focus:bg-white focus:border-gray-500"
+        id="name" type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="hidden" name="_captcha" value="false">
+      <label for="name"
+        class="absolute tracking-wide py-2 px-4 mb-4 opacity-0 leading-tight block top-0 left-0 cursor-text">
+        Tu nombre
+      </label>
+    </div>
+  </div>
+  <!-- email field -->
+  <div class="flex flex-wrap mb-6">
+    <div class="relative w-full appearance-none label-floating">
+      <input
+        class="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-gray-200 border border-gray-200 rounded focus:outline-none focus:bg-white focus:border-gray-500"
+        id="name" type="text" name="correo" placeholder="Tu email" required>
+      <label for="name"
+        class="absolute tracking-wide py-2 px-4 mb-4 opacity-0 leading-tight block top-0 left-0 cursor-text">
+        Tu email
+      </label>
+    </div>
+  </div>
+  <!-- Message field -->
+  <div class="flex flex-wrap mb-6">
+    <div class="relative w-full appearance-none label-floating">
+      <textarea
+        class="autoexpand tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-gray-200 border border-gray-200 rounded focus:outline-none focus:bg-white focus:border-gray-500"
+        id="message" type="text" name="mensaje" placeholder="Mensaje..."></textarea>
+      <label for="message"
+        class="absolute tracking-wide py-2 px-4 mb-4 opacity-0 leading-tight block top-0 left-0 cursor-text">Mensaje...
+      </label>
+    </div>
+  </div>
+
+  <div class="">
+    <button
+      class="w-full shadow bg-black hover:bg-black focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded">
+      Send
+    </button>
+
+  </div>
+</form>
+
+
+<script>
+
+
+  //RED BORDER ON INVALID INPUT
+  document.getElementById('contact-me').addEventListener("invalid", function (event) {
+    this.classList.add('check');
+  }, true);
+
+
+
+
+  // TEXT AREA AUTO EXPAND
+  var textarea = document.querySelector('textarea.autoexpand');
+
+  textarea.addEventListener('keydown', autosize);
+
+  function autosize() {
+    var el = this;
+    setTimeout(function () {
+      el.style.cssText = 'height:auto; padding: 1.4rem .2rem .5rem';
+
+      el.style.cssText = 'height:' + el.scrollHeight + 'px';
+    }, 0);
+  }
+
+
+
+</script>
+
+
+
+<footer class="footer">
+  <div class="logo-menu">
+    <img class="logo" src="./images/logo.svg" alt="Logo">
+    <nav class="footer-menu">
+      <ul>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="icons-copyright">
+    <div class="icons">
+      <a href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/tucasitamodular"><i class="bi bi-instagram"></i></a>
+    </div>
+    <p class="copyright">Desarrollado por Difepor</p>
+  </div>
+</footer>
+
+<script src="./js/main.js"></script>
+</body>
+
+</html>
